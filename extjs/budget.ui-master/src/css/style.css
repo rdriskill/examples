@@ -1,0 +1,71 @@
+#app-version {
+    text-align: left;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+#app-logo {
+    height: 80px;
+    width: 80px;
+    background: url(../img/app-logo.png) center no-repeat;
+}
+.status-indifferent {
+    background-color: #c1ddf1;
+}
+.status-ok {
+    background-color: #78b337;
+    color: #ffffff;
+}
+.status-warning {
+    background-color: #c73321;
+    color: #ffffff;
+}
+.login-window .x-window-body {
+    background-image: url(../img/login-bg.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+.login-window.x-window-default {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+.x-grid-item-alt {
+    background-color: #EDEDED;
+}
+.x-btn-default-large {
+    border-color: #157fcc;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #3892d4;
+    background-image: none;
+}
+.x-btn.x-btn-pressed.x-btn-default-large {
+    border-color: #105f99;
+    background-image: none;
+    background-color: #2a6e9f;
+}
+.x-btn-over.x-btn-default-large {
+    border-color: #1375bc;
+    background-image: none;
+    background-color: #3487c3;
+}
+.x-btn-inner-default-large {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: helvetica, arial, verdana, sans-serif;
+}
+.x-btn-focus.x-btn-pressed.x-btn-default-large {
+    box-shadow: none;
+}
+.x-mask {
+    background-color: rgba(76, 76, 76, 0.5);
+}
+
+/* EXTJS-17847
+   https://www.sencha.com/forum/showthread.php?301227 */
+
+.x-form-text {
+    display: inherit;
+}

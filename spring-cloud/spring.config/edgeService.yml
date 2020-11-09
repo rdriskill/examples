@@ -1,0 +1,10 @@
+server:
+  port: 8080
+zuul:
+  ignoredServices: '*' # ignore everything except for the routes below
+  routes: # the route key is looked up through the discovery service to find the actual url to route to
+    inventoryService: /inventory/**
+    orderService: /order/**
+logging:
+  level:
+    org.springframework: INFO

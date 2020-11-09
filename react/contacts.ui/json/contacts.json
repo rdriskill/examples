@@ -1,0 +1,16 @@
+[{
+    "id": "1",
+    "firstName": "Joseph",
+    "lastName": "Smith",
+    "address": "123 Somersville Road Huntsville, AL 35801"
+}, {
+    "id": "2",
+    "firstName": "Thomas",
+    "lastName": "Jones",
+    "address": "456 Anywhere Lane Huntsville, AL 35801"
+}, {
+    "id": "3",
+    "firstName": "Jay",
+    "lastName": "Johnson",
+    "address": "789  Nowhere BLVD Huntsville, AL 35801"
+}]

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: edgeService
+---
+
+spring:
+  profiles: default
+  cloud:
+    config:
+      uri: http://localhost:8888

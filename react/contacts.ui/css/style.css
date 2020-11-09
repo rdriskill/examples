@@ -1,0 +1,39 @@
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  background-color: #D8D8D8;
+}
+
+table.highlight > tbody > tr:hover {
+  background-color: #EEEEEE;
+}
+
+table > tbody > tr.selected {
+  background-color: #F5F5F5;
+}
+
+.mainNav {
+  margin-bottom: 20px;
+}
+
+/* MaterializeCSS
+ * -------------------------------------------------- */
+
+ /* This is a rename of the MaterializeCSS 'active' class.
+  * React for some reason doesn't apply the 'active' class. */
+.input-field label.activated {
+  font-size: 0.8rem;
+  -webkit-transform: translateY(-140%);
+  transform: translateY(-140%);
+}

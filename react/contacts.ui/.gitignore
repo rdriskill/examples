@@ -1,0 +1,10 @@
+/target
+.classpath
+.project
+.settings
+npm-debug.log
+/bower_components
+/node_modules/*
+/js/dist/*
+/doc
+js/test/test-bundle.js

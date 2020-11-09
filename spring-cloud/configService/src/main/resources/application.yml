@@ -1,0 +1,15 @@
+server:
+  port: 8888  # HTTP (Tomcat) port
+spring:
+  cloud:
+    config:
+      server:
+        git :
+          uri: https://github.com/rdriskill/spring.config
+  jackson:
+    serialization:
+      indent-output: true
+      
+logging:
+  level:
+    org.springframework: INFO

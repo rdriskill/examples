@@ -1,0 +1,15 @@
+eureka:
+  client:
+    serviceUrl:  # Tell the Eureka client where the service registry is
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+  rabbitmq:
+    host: wildboar.rmq.cloudamqp.com
+    virtualHost: gpgpizyq
+    port: 5672
+    username: gpgpizyq
+    password: mpfxjF19SoKEiLSPFsEVVxS91hOLsDLf

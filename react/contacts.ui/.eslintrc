@@ -1,0 +1,30 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "amd": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "rules": {
+    "func-names": 0,
+    "require-render-return": 0,
+    "react/require-render-return": 0,
+    "comma-dangle": ["error", "never"],
+    "max-len": 0,
+    "default-case": 0,
+    "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
+    "jsx-a11y/no-static-element-interactions": 0
+  },
+  "globals": {
+    "$": false
+    }
+}

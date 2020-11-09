@@ -1,0 +1,18 @@
+{
+    "preset": "crockford",
+    "disallowDanglingUnderscores": {
+        "allExcept": [
+            "_exception",
+            "_response",
+            "_page",
+            "_extData"
+        ]
+    },
+    "excludeFiles": [
+        "server.js"
+    ],
+    "validateQuoteMarks": {
+        "mark": "\"",
+        "escape": true
+    }
+}

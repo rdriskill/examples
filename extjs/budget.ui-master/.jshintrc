@@ -1,0 +1,31 @@
+{
+    // Options
+    "eqeqeq": true,
+    "forin": true,
+    "latedef": true,
+    "unused": "vars",
+    "undef": true,
+    "strict": true,
+    "asi": false,
+    "debug": true,
+    "browser": true,
+    "devel": true,
+    "indent": false,
+    "smarttabs": true,
+    "-W099": true,
+    "maxerr": 1000,
+    "laxbreak": true,
+    "newcap": false,
+    "curly": true,
+    "noarg": true,
+
+    // Globals. Set to false for external or readonly namespaces.
+    "globals": {
+        "module": true,
+        "BootConfig": true,
+        "BudgetUI": true,
+        "Build": true,
+        "Ext": false,
+        "QUnit": false
+    }
+}
